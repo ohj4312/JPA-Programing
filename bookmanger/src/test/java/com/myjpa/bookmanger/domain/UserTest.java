@@ -10,6 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserTest {
     @Test
     void test(){
+
+        //@NoArgsCoustructor
         User user=new User();
         user.setEmail("hj@aaa.com");
         user.setName("현지");
