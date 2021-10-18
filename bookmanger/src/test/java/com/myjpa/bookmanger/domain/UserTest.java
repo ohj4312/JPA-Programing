@@ -17,7 +17,7 @@ class UserTest {
         user.setName("현지");
 
         //@AllAgsConstructor
-        User user1=new User("현지","hj@aaa.com", LocalDateTime.now(),LocalDateTime.now());
+        User user1=new User(null,"현지","hj@aaa.com", LocalDateTime.now(),LocalDateTime.now());
         //@RequireAgsConstructor
         User user2=new User("현지","hj@aaa.com");
         //@Builder
