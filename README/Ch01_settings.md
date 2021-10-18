@@ -95,7 +95,7 @@ class UserTest {
 
 - Spring Boot Application을 실행시키면 아래와 같은 결과를 얻을 수 있다.
 
- ```
+```
   H2 console available at '/h2-console'. Database available at 'jdbc url 부분이 여기에 출력된다!'
 ```
 - `http:/localhost:8080/h2-console`로 접속하여 JDBC URL 부분을 console결과와 일치한 주소로 변경해주면 h2 DB에 Connect한 결과를 확인할 수 있다.
